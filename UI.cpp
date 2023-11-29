@@ -1,4 +1,4 @@
-#include "framework.h"
+#include "UI.h"
 
 void RunUI()
 {
@@ -18,13 +18,27 @@ void RunUI()
 			Exit(&isExit);
 			break;
 		case '1':
-
+			system("cls");
+			printf("아직 구현되지 않은 기능입니다. 계속 하시려면 아무키나 누르세요\n");
+			_getch();
+			system("cls");
 			break;
 		case '2':
 			MakeCase();
+			system("cls");
 			choice = 0;
 			break;
+		case '3':
+			system("cls");
+			printf("아직 구현되지 않은 기능입니다. 계속 하시려면 아무키나 누르세요\n");
+			_getch();
+			system("cls");
 		default:
+			system("cls");
+			printf("잘못된 선택지 입니다. 계속 하시려면 아무키나 누르세요\n");
+			_getch();
+			system("cls");
+			break;
 
 			
 
@@ -45,7 +59,8 @@ void Exit(bool* isExit)
 {
 	system("cls");
 	*isExit = 1;
-	//printf("프로그램이 종료되었습니다. 아무키나 누르세요");
+	printf("프로그램이 종료되었습니다. 아무키나 누르세요");
+	_getch();
 	return;
 }
 

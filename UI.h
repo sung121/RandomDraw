@@ -1,5 +1,7 @@
 #pragma once
 
+#include "framework.h"
+
 typedef enum MyEnum {  } MyEnum;
 
 
