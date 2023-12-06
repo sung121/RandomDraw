@@ -8,4 +8,4 @@ typedef enum MyEnum {  } MyEnum;
 void RunUI();
 void Exit(bool* isExit);
 void MakeMenuBar();
-void MakeChoice();
+void DetermineEnter();

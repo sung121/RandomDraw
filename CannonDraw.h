@@ -2,9 +2,12 @@
 
 #include "framework.h"
 
+class Case;
+
 
 
 
 void MakeCase();
-void ChooseRange(Case* newCase);
-void ChooseCount(Case* newCase);
+void ChooseNumber();
+void PullOutNumber(Case* param);
+

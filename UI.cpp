@@ -9,8 +9,9 @@ void RunUI()
 
 	while (!isExit)
 	{
-		char choice = 0;
 		MakeMenuBar();
+
+		char choice = 0;
 		choice = _getch();
 		switch (choice)
 		{
@@ -69,5 +70,29 @@ void MakeMenuBar()
 	printf(" 사다리타기:[1] 대포뽑기:[2] 제비뽑기:[3] 나가기[0] \n");
 	printf("원하는 선택지를 선택해주세요: ");
 }
+
+void DetermineEnter()
+{
+	int isIn = 1;
+	while (isIn)
+	{
+		char a = _getch();
+		if (a == 13)
+		{
+			isIn = 0;
+			break;
+		}
+		else
+		{
+			system("cls");
+			printf("잘못된 입력입니다. 다시 선택해주세요");
+
+		}
+	}
+
+}
+
+
+
 
 

@@ -5,13 +5,12 @@
 
 
 
-
-
 int main()
 {
 
 
 	RunUI();
 
+	return 0;
 
 }
