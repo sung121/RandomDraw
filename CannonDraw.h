@@ -8,6 +8,6 @@ class Case;
 
 
 void MakeCase();
-void ChooseNumber();
+void GiveChoice(Case* param);
+void ChooseNumberDirectly(Case* param);
 void PullOutNumber(Case* param);
-

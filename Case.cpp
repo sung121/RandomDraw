@@ -21,7 +21,7 @@ int Case::GetMin()
 	return m_iMin;
 }
 
-void Case::SetRange(int max , int min )
+void Case::SetRange(int max, int min)
 {
 	this->m_iMax = max;
 	this->m_iMin = min;
@@ -34,7 +34,7 @@ void Case::SetNumber(int sequence, int num)
 {
 
 	m_ipNumber[sequence] = num;
-	
+
 }
 
 int* Case::GetNumber()

@@ -3,7 +3,7 @@
 void RunUI()
 {
 
-	
+
 	bool isExit = 0;
 	//choice = getch();
 
@@ -35,13 +35,10 @@ void RunUI()
 			_getch();
 			system("cls");
 		default:
-			system("cls");
-			printf("잘못된 선택지 입니다. 계속 하시려면 아무키나 누르세요\n");
-			_getch();
-			system("cls");
+			PrintWrongInput();
 			break;
 
-			
+
 
 
 
@@ -49,7 +46,7 @@ void RunUI()
 
 		}
 
-		
+
 	}
 
 
@@ -84,14 +81,19 @@ void DetermineEnter()
 		}
 		else
 		{
-			system("cls");
-			printf("잘못된 입력입니다. 다시 선택해주세요");
-
+			PrintWrongInput();
 		}
 	}
 
 }
 
+inline void PrintWrongInput()
+{
+	system("cls");
+	printf("잘못된 선택지 입니다. 계속 하시려면 아무키나 누르세요\n");
+	_getch();
+	system("cls");
+}
 
 
 

@@ -9,3 +9,4 @@ void RunUI();
 void Exit(bool* isExit);
 void MakeMenuBar();
 void DetermineEnter();
+inline void PrintWrongInput();

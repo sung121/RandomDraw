@@ -13,6 +13,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="소스 파일\구조체">
+      <UniqueIdentifier>{310d6fab-d177-4216-99c9-4605c496e52f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="Case.cpp">
       <Filter>소스 파일\클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="linearData.cpp">
+      <Filter>소스 파일\구조체</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -41,8 +47,11 @@
     <ClInclude Include="Case.h">
       <Filter>소스 파일\클래스</Filter>
     </ClInclude>
+    <ClInclude Include="linearData.h">
+      <Filter>소스 파일\구조체</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

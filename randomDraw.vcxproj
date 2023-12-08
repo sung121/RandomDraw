@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="CannonDraw.cpp" />
     <ClCompile Include="Case.cpp" />
+    <ClCompile Include="linearData.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="UI.cpp" />
   </ItemGroup>
@@ -138,10 +139,11 @@
     <ClInclude Include="CannonDraw.h" />
     <ClInclude Include="Case.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="linearData.h" />
     <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
